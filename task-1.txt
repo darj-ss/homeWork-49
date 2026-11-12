@@ -1,0 +1,10 @@
+mkdir projects
+cd projects
+mkdir my_project
+cd my_project
+mkdir -p directory1/subdirectory1
+mkdir directory2
+cd directory2
+echo 'Hello from JS' > hello.txt
+cd ..
+mkdir -p directory3/subdirectory2
